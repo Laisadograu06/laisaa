@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+} 
+.titulo{
+
+    background-color: transparent;
+}
+.pokebola{
+    background-color: transparent;
+    
+}
+.cabecalho
+{ 
+    display: flex;
+   
+    justify-content: center;
+    background-image: url('../imagens/imagemcabecalho.png');
+    text-align: center; 
+    width: 1440px; 
+    height: 400px;
+    
+}
+.icone{
+    background-color: transparent;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+.barra2{
+    margin-left: 400%;
+    margin-top: -20%;
+
+}
+.barra1{
+    display: flex;
+    width: 1440px;
+    height: 150px;
+    flex-shrink: 0;
+    background: #F1F1F1;
+}
+.corpo  {
+    width: 1440px;
+    background: #FFF;
+    padding-top: 30px;
+    display: flex;
+
+}
+.rodape{
+    width: 1440px;
+    height: 100px;
+    flex-shrink: 0;
+    background: #DD3528;
+    text-align: center;
+}
+
+/* .pokedex {
+    width: 200px;
+    height: 200px;
+    background-color: #9d9796;
+    margin: 10px;
+} */
+
+h2 {
+    color: #FFF;
+}
+
+.card-title {
+    color: black;
+
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.card {
+    background-color: #e38d87;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    text-decoration-style: none;
+    width: 200px;
+    height: 200px;    
+}
+.pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+}
